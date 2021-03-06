@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+}
+
+.drag-container{
+    background-color: #999;
+    margin-top: 1rem;
+    padding: 1rem;
+    transition: 1s;
+}
+
+.drag-item{
+    padding: 1rem;
+    margin: 1rem 0;
+    background-color: #ccc;
+}
+
+.draggable{
+    background-color: white;
+    cursor: grab;
+}
+
+.draggable.dragging{
+    opacity: 0.5;
+}
